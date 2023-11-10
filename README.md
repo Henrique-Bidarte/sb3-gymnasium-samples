@@ -27,14 +27,26 @@ The implementation of the agents in this project was a success for various model
 
 The use of vectorized environments was particularly useful for training models in multiple parallel environments, greatly speeding up learning. 
 
-![breakout-16-fps](https://github.com/Henrique-Bidarte/sb3-gymnasium-samples/assets/134324510/79628802-8187-4ada-8d08-33eaff771106)
+![BreakOut](https://github.com/Henrique-Bidarte/sb3-gymnasium-samples/assets/134324510/663e0479-c4e5-4935-8df3-706aff8233d7)
 - Breakout_v5
   
-The samples for the Atari environments are contained in the folder with the respective name. The file can be duplicated and modified to act in other games. A little attention should be paid to the constants section within the project so that the necessary adjustments and changes can be made to each of the games.
 
 ##
 
 A Box-2D environment is also contained in the sample. The Lunar Lander was one of the first Reinforcement Learning implementations I came across during my studies. Here, this environment is made available by Gymnasium and its implementation was made using the respective documentation.
 This environment is very pleasant to watch during learning and, in my opinion, very elegant. 
 
+![Lunar-Lander](https://github.com/Henrique-Bidarte/sb3-gymnasium-samples/assets/134324510/42c5884c-4cdf-47e2-a532-161ea0c39a08)
+
+- Lunar_Lander_v2
+
+##
+
+It is possible to control the projects flow through the ```constants``` section in the Jupyter Notebooks. Not only it assigns values ​​to the different variables consumed, but it indicates whether the project should generate a new model for experimentation or train an existing one.
+
+Logs will be saved within the ```logs``` folder so they can be analyzed accordingly.
+
+Trained models are saved in the ```models``` folder alongside the number of steps executed in the training.
+
+The project has an option to load a best_model file. This must be named as in its respective constant, and made available in the root folder of each of the files.
 
