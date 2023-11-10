@@ -25,7 +25,7 @@ In addition, ```PyTorch``` was installed to train the agents. Within the project
 
 The implementation of the agents in this project was a success for various models and environments. Especially Atari environments with their endless range of game samples. Although not all agents were insightful in all environments, some were particularly impressive. 
 
-The use of vectorized environments was particularly useful for training models in multiple parallel environments, greatly speeding up learning. 
+The use of vectorized environments was very useful for training models in multiple parallel environments, greatly speeding up learning. 
 
 ![BreakOut](https://github.com/Henrique-Bidarte/sb3-gymnasium-samples/assets/134324510/663e0479-c4e5-4935-8df3-706aff8233d7)
 
