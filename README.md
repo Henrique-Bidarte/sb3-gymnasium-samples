@@ -28,6 +28,7 @@ The implementation of the agents in this project was a success for various model
 The use of vectorized environments was particularly useful for training models in multiple parallel environments, greatly speeding up learning. 
 
 ![BreakOut](https://github.com/Henrique-Bidarte/sb3-gymnasium-samples/assets/134324510/663e0479-c4e5-4935-8df3-706aff8233d7)
+
 - Breakout_v5
   
 
